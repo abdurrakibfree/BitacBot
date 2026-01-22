@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <title>BITAC Smart Guide</title>
+  <style>
+    body { font-family: Arial; background:#f3f3f3; }
+    #chatbox { width: 400px; margin: 40px auto; background:#fff; padding:20px; border-radius:10px; height:500px; overflow-y:auto; }
+    .msg { padding:10px; margin:10px 0; border-radius:8px; }
+    .user { background:#d7f0ff; text-align:right; }
+    .bot { background:#e8e8e8; }
+    #inputArea { width: 400px; margin: auto; display: flex; }
+    #msgInput { flex:1; padding:10px; }
+    #sendBtn { padding:10px 20px; }
+  </style>
+</head>
+<body>
+
+<h2 style="text-align:center;">BITAC Smart Guide</h2>
+
+<div id="chatbox"></div>
+
+<div id="inputArea">
+  <input id="msgInput" placeholder="প্রশ্ন লিখুন...">
+  <button id="sendBtn">Send</button>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
